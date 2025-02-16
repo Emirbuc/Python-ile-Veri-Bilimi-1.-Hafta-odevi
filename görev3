@@ -1,0 +1,6 @@
+# 1 ile 100 arasındaki çift sayıları ekrana yazdırma
+print("1 ile 100 arasındaki çift sayılar:")
+i = 2
+while i <= 100:
+    print(i, end=" ")  # Sayıları yan yana yazdır
+    i += 2             # 2'şer artır

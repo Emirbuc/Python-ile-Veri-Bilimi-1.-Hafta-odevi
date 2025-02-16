@@ -1,0 +1,10 @@
+# Kullanıcıdan bir sayı alarak 1’den o sayıya kadar olan sayıların toplamını hesaplayan bir Python programı yazın. (For veya While döngüsü kullanın.)
+# Kullanıcıdan bir sayı alma
+sayi = int(input("Bir sayı girin:"))
+# Toplam değişkeni
+toplam = 0
+# 1'den girilen sayıya kadar olan sayıları topla
+for i in range(1, sayi + 1):
+        toplam += i
+ # Sonucu ekrana yazdır       
+print("Toplam: ", toplam)

@@ -1,0 +1,9 @@
+# Kullanıcıdan alınan bir metni ters çeviren ve ekrana yazdıran bir Python programı yazın.
+metin = input("Bir metin girin: ")
+
+ters_metin = ""
+
+for karakter in metin[::-1]:  
+    ters_metin += karakter  
+
+print(f"Girilen metnin tersi: {ters_metin}")
